@@ -1,6 +1,75 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing;
+    box-sizing: border-box;
+}
 
+body {
+    background-image: url("../img/woodbackground.jpg");
+    font-family: "Roboto";
+    padding: 0 25%;
+}
+
+
+form {
+    padding: 10px 0;
+    border-top: 1px solid green;
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: 5px;
+    border-top: 1px solid green;
+}
+
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+h3 {
+    color: white;
+}
+
+#messaggi {
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+.background {
+    background-color: darkgrey;
+
+}
+
+em {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.bianco {
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    text-align: center;
+
+}
+
+span {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+main {
+    margin: 10px 0;
+}
+
+img {
+    vertical-align: middle;
 }
